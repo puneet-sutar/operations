@@ -1,0 +1,21 @@
+<obj.xml>
+<object>
+<name>Branch</name>
+<attr f_key='false' type='string'>b_name</attr>
+<attr f_key='false' type='string'>address</attr>
+<attr f_key='false' type='float'>assets</attr>
+</object>
+<object>
+<name>Customer</name>
+<attr f_key='false' type='string'>id</attr>
+<attr f_key='false' type='string'>name</attr>
+<attr f_key='false' type='string'>address</attr>
+<attr f_key='Branch:b_name' type='string'>home_branch</attr>
+</object>
+<object>
+<name>Account</name>
+<attr f_key='Branch:b_name' type='string'>b_name</attr>
+<attr f_key='false' type='float'>bal</attr>
+<attr f_key='Customer:id' type='string'>id</attr>
+</object>
+</obj.xml>

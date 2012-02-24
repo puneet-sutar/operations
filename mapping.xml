@@ -1,0 +1,18 @@
+<mapping>
+	<object name="Branch">
+		<map attr="b_name" column="account:branch"/>
+		<map attr="address" column="account:address1"/>
+		<map attr="assets" column="account:assets"/>
+	</object>
+	<object name="Branch">
+		<map attr="id" column="account:id_a"/>
+		<map attr="name" column="account:name"/>
+		<map attr="address" column="account:address2"/>
+		<map attr="home_branch" column="account:branch"/>
+	</object>
+	<object name="Accounts">
+		<map attr="id" column="account:id_a"/>
+		<map attr="bal" column="account:balance"/>
+		<map attr="b_name" column="account:branch"/>
+	</object>
+</mapping>

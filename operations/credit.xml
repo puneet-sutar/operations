@@ -1,0 +1,8 @@
+<credit>
+<id>c1</id>
+<name>credit</name>
+<type>operation</type>
+<process>
+<name input='@account:bal:bal + #amt:id = #id'>update</name>
+</process>
+</credit>

@@ -1,0 +1,14 @@
+<atom>
+	    <id>a4</id>
+		<name type='INBUILT'>change</name>
+		<param num='4'> 
+			<name type='ISTREAM'>objName</name>
+			<name type='VAR'>LHS</name>
+			<name type='EXP'>RHS</name>
+			<name type='EQA'>KEY</name>
+		</param>
+		<process how='file'>
+			update.rb
+		</process>
+		<return valid='false'/>
+</atom>

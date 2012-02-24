@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<request>
+	<trans_id>1</trans_id>
+	<op_id>1</op_id>
+	<op_name>credit</op_name>
+	<input>
+		<id>111232345</id>
+		<amt>1000</amt>
+	</input>
+</request>

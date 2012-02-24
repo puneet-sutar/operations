@@ -1,0 +1,4 @@
+select select.xml
+update update.xml
+delete delete.xml
+insert insert.xml

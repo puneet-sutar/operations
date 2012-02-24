@@ -1,0 +1,8 @@
+<Debit>
+<id>c1</id>
+<name>Debit</name>
+<type>operation</type>
+<process>
+<name input='Account:bal:bal - #amt:id = #id'>update</name>
+</process>
+</Debit>

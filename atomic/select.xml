@@ -1,0 +1,12 @@
+<atom>
+		<id>a1</id>
+		<name type='inbuilt'>select</name>
+		<param num='4'>
+			<name type='string'>objName</name>
+			<name type='array'>field</name>
+			<name type='exp'>value</name>
+		</param>
+		<process>	
+		</process>
+		<return value='true'>field</return>	
+</atom>	
